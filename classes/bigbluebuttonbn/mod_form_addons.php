@@ -266,7 +266,7 @@ class mod_form_addons extends \mod_bigbluebuttonbn\local\extension\mod_form_addo
                     $paramicon,
                     $paramname,
                     $paramtext,
-                    $paramdelete
+                    $paramdelete,
                 ],
                 "bnreminders_paramgroup[$index]",
                 '',
