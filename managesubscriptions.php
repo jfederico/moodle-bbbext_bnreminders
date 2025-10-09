@@ -17,7 +17,7 @@
 /**
  * Get and set subscription status for a user or an email.
  *
- * @package   bbbext_bnreminders
+ * @package   core
  * @copyright 2022 onwards, Blindside Networks Inc
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @author    Laurent David  (laurent [at] call-learning [dt] fr)

@@ -24,7 +24,7 @@ use mod_bigbluebuttonbn\instance;
 /**
  * Utility class for email subscription related operations.
  *
- * @package   bbbext_bnreminders
+ * @package   core
  * @copyright 2024 onwards, Blindside Networks Inc
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @author    Laurent David (laurent@call-learning.fr)

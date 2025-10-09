@@ -20,7 +20,7 @@ use bbbext_bnreminders\utils;
 /**
  * Generator class
  *
- * @package   bbbext_bnreminders
+ * @package   core
  * @copyright 2024 onwards, Blindside Networks Inc
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @author    Laurent David (laurent@call-learning.fr)
@@ -87,7 +87,6 @@ class bbbext_bnreminders_generator extends \component_generator_base {
         }
     }
 
-
     /**
      * Add reminder for instance
      *
@@ -133,5 +132,4 @@ class bbbext_bnreminders_generator extends \component_generator_base {
         $guest->id = $DB->insert_record(mod_instance_helper::SUBPLUGIN_GUESTS_TABLE, $guest);
         return $guest;
     }
-
 }

@@ -26,13 +26,12 @@ use mod_bigbluebuttonbn\instance;
 /**
  * This adhoc task will send emails to users via the messaging API
  *
- * @package   bbbext_bnreminders
+ * @package   core
  * @copyright 2024 onwards, Blindside Networks Inc
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @author    Laurent David (laurent@call-learning.fr)
  */
 class send_email_reminders_message extends adhoc_task {
-
     /**
      * Execute the task
      *
@@ -63,8 +62,10 @@ class send_email_reminders_message extends adhoc_task {
             $message->smallmessage = html_to_text($emailhtmlmessage);
             $message->notification = 1; // This message is just a notification from Moodle.
             $message->contexturl = (
-            new moodle_url('/mod/bigbluebuttonbn/view.php?id',
-                ['id' => $cmid])
+            new moodle_url(
+                '/mod/bigbluebuttonbn/view.php?id',
+                ['id' => $cmid]
+            )
             )->out(false); // A relevant URL for the notification.
             $message->contexturlname = $instance->get_meeting_name();
             // Extra content for specific processor.
