@@ -17,7 +17,6 @@
 namespace bbbext_bnreminders\task;
 
 use bbbext_bnreminders\subscription_utils;
-use bbbext_bnreminders\utils;
 use core\task\adhoc_task;
 use core_user;
 use moodle_url;
@@ -26,7 +25,7 @@ use mod_bigbluebuttonbn\instance;
 /**
  * This adhoc task will send emails to users via the messaging API
  *
- * @package   core
+ * @package   bbbext_bnreminders
  * @copyright 2024 onwards, Blindside Networks Inc
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @author    Laurent David (laurent@call-learning.fr)

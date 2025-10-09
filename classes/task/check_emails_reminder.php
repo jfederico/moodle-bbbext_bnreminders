@@ -21,7 +21,6 @@ use bbbext_bnreminders\local\persistent\guest_email;
 use bbbext_bnreminders\subscription_utils;
 use bbbext_bnreminders\utils;
 use core\task\scheduled_task;
-use context_system;
 use moodle_url;
 use DateInterval;
 use DateTime;
@@ -30,7 +29,7 @@ use mod_bigbluebuttonbn\instance;
 /**
  * This adhoc task will send emails to guest users with the meeting's details
  *
- * @package   core
+ * @package   bbbext_bnreminders
  * @copyright 2024 onwards, Blindside Networks Inc
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @author    Laurent David (laurent@call-learning.fr)

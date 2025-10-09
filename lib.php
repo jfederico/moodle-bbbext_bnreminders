@@ -17,9 +17,9 @@
 /**
  * Plugin overrides are located here
  *
- * @package     core
- * @copyright   2024 Laurent David - CALL Learning <laurent@call-learning.fr>
- * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   bbbext_bnreminders
+ * @copyright 2024 Laurent David - CALL Learning <laurent@call-learning.fr>
+ * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 use bbbext_bnreminders\local\persistent\guest_email;

@@ -19,7 +19,7 @@ namespace bbbext_bnreminders;
 /**
  * BBB Utils tests class.
  *
- * @package   core
+ * @package   bbbext_bnreminders
  * @copyright 2024 onwards, Blindside Networks Inc
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @author    Laurent David (laurent@call-learning.fr)
